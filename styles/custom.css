@@ -583,7 +583,18 @@ font-weight:normal !important;
 
 
 
-
+.leftMenuHolder {
+		
+		top:15% !important;
+	}
+	
+	.leftMenuHolder ul li.lastChild {
+		border-radius: 0 0 26px 0;
+		} 
+		
+		.arabicPageContainer .leftMenuHolder ul li.lastChild {
+			border-radius: 0px 0px 0px 26px;
+			}
 
 	
 	

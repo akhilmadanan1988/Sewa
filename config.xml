@@ -34,12 +34,12 @@
     <Capability Name="ID_CAP_NETWORKING" />
 	</Capabilities>
 	
-	<icon src="icons/ios/5.png" gap:platform="ios" width="144" height="144" />
+	<icon src="images/splash/5.png" gap:platform="ios" width="144" height="144" />
 	
 	
 	  <!-- Splash screen ios-->
-	<gap:splash src="images/splash/ios/3.png" gap:platform="ios" width="2048" height="1496" />
-	<gap:splash src="images/splash/ios/4.png" gap:platform="ios" width="1536" height="2008" />
+	<gap:splash src="images/splash/3.png" gap:platform="ios" width="2048" height="1496" />
+	<gap:splash src="images/splash/4.png" gap:platform="ios" width="1536" height="2008" />
 	
 
 	

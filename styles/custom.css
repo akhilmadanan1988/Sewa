@@ -608,6 +608,26 @@ font-weight:normal !important;
 	}
 }
 
+.leftMenuHolder {
+		
+		top:15% !important;
+	}
+	
+	.leftMenuHolder ul li.lastChild {
+		border-radius: 0 0 26px 0;
+		} 
+		
+		.arabicPageContainer .leftMenuHolder ul li.lastChild {
+			border-radius: 0px 0px 0px 26px;
+			}
+
+@media screen and (orientation:landscape) and (min-device-height:1000px) and (-webkit-min-device-pixel-ratio : 2) {
+   .leftMenuHolder {
+		
+		bottom:0px !important;
+	}
+}
+
 
 @media only screen and (min-height: 800px) and (max-height: 1000px) and (orientation : Portrait)  {
   

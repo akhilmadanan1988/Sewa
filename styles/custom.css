@@ -345,6 +345,7 @@ legend{
 	padding: 8px;
 	font-family:'robotocondensed' !important;
 	font-size: 16px;
+	text-align: right;
 	}
 	.formSection table{
 	border-spacing: 0;

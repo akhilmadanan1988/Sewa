@@ -42,8 +42,7 @@
 	
 	  <!-- Splash screen ios-->
 	<gap:splash src="images/splash/3.png" gap:platform="ios" width="2048" height="1496" />
-	<gap:splash src="images/splash/4.png" gap:platform="ios" width="1536" height="2008" />
-	<gap:splash src="images/splash/1.png" gap:platform="ios" width="768" height="1004" />
+	
 	
 	
 

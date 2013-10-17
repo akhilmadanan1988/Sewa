@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.sewa.tablet"
+        id        = "com.sewa.ipad"
         versionCode="10" 
         version   = "1.0.0">
 
     <!-- versionCode is optional and Android only -->
-
-    <name>Sewa Tablet</name>
+	
+    <name>SEWA</name>
 
     <description>
        Sewa tablet application
@@ -17,6 +17,9 @@
         Hardeep Shoker 
     </author>
 
+	<preference name="target-device" value="universal" />
+	<preference name="orientation" value="landscape" />
+	
 	 <!-- Internet connection -->
 	<feature name="NetworkStatus">
     <param name="android-package" value="org.apache.cordova.NetworkManager" />

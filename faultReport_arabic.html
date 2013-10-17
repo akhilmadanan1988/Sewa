@@ -9,6 +9,7 @@
 	<script src="scripts/jquery-1.8.2.min.js"></script>
 	<script src="scripts/jquery.mobile-1.2.0.min.js"></script>
 	
+	
 
 	
 	
@@ -55,21 +56,16 @@
               
                 <img src="images/shadowLeft.png" class="leftShadowHeader"/><img src="images/shadowRight.png" class="rightShadowHeader"/>
 				
-				
 				<div class="goBut topMenu">
-						<a href="index_arabic.html" data-transition="slide">القائمة</a>
+								<a href="index_arabic.html" data-transition="slide" >القائمة</a> 	
 				</div>
-				
-				
 				<div class="goBut topMenu bakBut" style="left:10px;padding:7px;">
 			<a href="#" data-rel="back">
 								القائمة</a>
-				</div>				
-								
-								
+				</div>
             </div>
 
-            <div data-role="content" class="sewaContentBg">
+            <div data-role="content" class="sewaContentBg arabicVersion">
                 
 				
 				
@@ -81,7 +77,7 @@
 					
 					<ul>
 					
-						<li class="active firstChild">
+						<li class=" firstChild active">
 						<a href="index_arabic.html" data-transition="slide">
 						<img src="images/home.png" /><br/>
 						الصفحة الرئيسية
@@ -124,80 +120,75 @@
 				
 				</div>
 				
-				<div class="rightContent billSection arabicVersion">
+				<div class="rightContent">
 				
 				<fieldset class="formSection">
-					<legend class="textRight" style="width:70%;">الاستفسار عن الفاتورة </legend>
-					
-					
-					<table>
-						<tr>
-						<td>
-								<div class="goBut">
-								عرض
-								</div>
-								
-							</td>
-							
-							<td style="width:100%;">
-								<input type="text" name="search_zipcode" ng-model="search_zipcode" ng-click="clearAlerts()" class="ng-pristine ng-valid textRight" value="1600231060" ></td>
-							
-						</tr>
-						
+					<legend style="margin-bottom:20px;float:right;width:70%" class="textRight">استمارة الإبلاغ عن الأعطال</legend>
+				</fieldset>
+				
 			
-           			 </table>
+				
+				
+					<div class="reportForm formSection">
+				
+				<label for="basic">الاسم بالكامل *</label>
+				<input type="text" name="name" id="basic" data-mini="true" placeholder="أدخل اسمك" />
+				
+				<div class="spacing">&nbsp;</div>
+				
+				<label for="basic">البريد الالكتروني *</label>
+				<input type="text" name="name" id="basic" data-mini="true" placeholder="أدخل بريدك الإلكتروني معرف" />
+				
+				<div class="spacing">&nbsp;</div>
+				
+				<label for="basic">الهاتف المتحرك *</label>
+				<input type="text" name="name" id="basic" data-mini="true" placeholder="أدخل رقم هاتفك المحمول" />
+				
+				<div class="spacing">&nbsp;</div>
+				
+				<label for="basic">رقم المستهلك</label>
+				<input type="text" name="name" id="basic" data-mini="true" placeholder="رقم المستهلك" />
+				
+				<div class="spacing">&nbsp;</div>
+				
+				<label for="basic">موقع العطل"</label>
+				<select>
+						<option>إختر موقع العطل</option>
 					
+				</select>
 				
-				<div class="bottomListDetail">
+				<div class="spacing">&nbsp;</div>
 				
-				<div class="ui-grid-a ui-responsive">
-					<div class="ui-block-a"><div class="ui-body ui-body-d textRight">ABDULREHMAN AMIN A R ALSHURFA<b style="float:right;margin-left:15px;">:</b></div></div>
-					<div class="ui-block-b"><div class="ui-body ui-body-d bigSize">اسم المستهلك </div></div>
-				</div><!-- /grid-a -->
+				<label for="basic">القسم*</label>
+				<select>
+						<option>اختر القسم </option>
+					
+				</select>
 				
+				<div class="spacing">&nbsp;</div>
 				
-				
-				<div class="ui-grid-a ui-responsive">
-					<div class="ui-block-a"><div class="ui-body ui-body-d textRight">AED 575.95<b style="float:right;;margin-left:15px;">:</b></div></div>
-					<div class="ui-block-b"><div class="ui-body ui-body-d bigSize">الرصيد الحالي </div></div>
-				</div><!-- /grid-a -->
-				
-				
-				<div class="ui-grid-a ui-responsive">
-					<div class="ui-block-a"><div class="ui-body ui-body-d textRight"> 31/08/2013<b style="float:right;;margin-left:15px;">:</b></div></div>
-					<div class="ui-block-b"><div class="ui-body ui-body-d bigSize">تاريخ الاستحقاق </div></div>
-				</div><!-- /grid-a -->
+				<label for="basic">الشكوى / تفاصيل العطل*</label>
+				<textarea></textarea>
 				
 				
-				<div class="ui-grid-a ui-responsive">
-					<div class="ui-block-a"><div class="ui-body ui-body-d textRight">AED 0.00  <b style="float:right;;margin-left:15px;">:</b></div></div>
-					<div class="ui-block-b"><div class="ui-body ui-body-d bigSize">المبلغ المدفوع (هذا الشهر)</div></div>
-				</div><!-- /grid-a -->
 				
-				<div class="ui-grid-a ui-responsive">
-					<div class="ui-block-a"><div class="ui-body ui-body-d textRight">18/08/2013<b style="float:right;;margin-left:15px;">:</b></div></div>
-					<div class="ui-block-b"><div class="ui-body ui-body-d bigSize">تاريخ آخر سداد للفاتورة </div></div>
-				</div><!-- /grid-a -->
-				
-				
-				<div class="ui-grid-a ui-responsive noBdr">
-					<a href="#"  style="text-decoration:none;">	
+					<div class="ui-grid-a ui-responsive noBdr">
+					<a href="#" style="text-decoration:none;">
 					<div class="goBut bottomSubmit">
-								عرض الفاتورة
+								تقديم البلاغ
 					</div>
 					</a>
 					
 				</div><!-- /grid-a -->
 				
+			</div>
+			
+			
 				
 				
-				</div>	
-					
-					
-					
-				</fieldset>	
-				
-				
+				</div>
+			
+			
 				
 				
 				</div>

@@ -5,7 +5,7 @@
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 
-	<link rel="stylesheet" href="styles/jquery.mobile-1.2.0.min.css" />
+<link rel="stylesheet" href="styles/jquery.mobile-1.2.0.min.css" />
 	<script src="scripts/jquery-1.8.2.min.js"></script>
 	<script src="scripts/jquery.mobile-1.2.0.min.js"></script>
 	
@@ -57,9 +57,8 @@
                 <img src="images/shadowLeft.png" class="leftShadowHeader"/><img src="images/shadowRight.png" class="rightShadowHeader"/>
 				
 				<div class="goBut topMenu">
-							<a href="index.html" data-transition="slide" >Menu</a> 
+								<a href="index.html" data-transition="slide" >Menu</a> 
 				</div>
-				
 				<div class="goBut topMenu bakBut" style="left:10px;padding:7px;">
 			<a href="#" data-rel="back">
 								Back</a>
@@ -78,7 +77,7 @@
 					
 					<ul>
 					
-						<li class="active firstChild">
+						<li class=" firstChild active">
 						<a href="index.html" data-transition="slide">
 						<img src="images/home.png" /><br/>
 						HOME
@@ -121,78 +120,68 @@
 				
 				</div>
 				
-				<div class="rightContent billSection">
+				<div class="rightContent">
 				
 				<fieldset class="formSection">
-					<legend>Bill Enquiry</legend>
-					
-					
-					<table>
-						<tr>
-							<td style="width:100%;">
-								<input type="text" name="search_zipcode" ng-model="search_zipcode" ng-click="clearAlerts()" class="ng-pristine ng-valid" value="1600231060"></td>
-							<td>
-								<div class="goBut">
-								Go
-								</div>
-								
-							</td>
-						</tr>
-						
+					<legend style="margin-bottom:20px;">Fault Reporting Form</legend>
+				</fieldset>
 			
-           			 </table>
+			
+			<div class="reportForm formSection">
+				
+				<label for="basic">Full Name *</label>
+				<input type="text" name="name" id="basic" data-mini="true" placeholder="Enter Your Name" />
+				
+				<div class="spacing">&nbsp;</div>
+				
+				<label for="basic">Email*</label>
+				<input type="text" name="name" id="basic" data-mini="true" placeholder="Enter Your Email ID" />
+				
+				<div class="spacing">&nbsp;</div>
+				
+				<label for="basic">Mobile Number*</label>
+				<input type="text" name="name" id="basic" data-mini="true" placeholder="Enter Your Mobile Number" />
+				
+				<div class="spacing">&nbsp;</div>
+				
+				<label for="basic">Consumer  Number*</label>
+				<input type="text" name="name" id="basic" data-mini="true" placeholder="Enter Your Consumer Number" />
+				
+				<div class="spacing">&nbsp;</div>
+				
+				<label for="basic">Fault Location*</label>
+				<select>
+						<option>Select Fault Location</option>
 					
+				</select>
 				
-				<div class="bottomListDetail">
+				<div class="spacing">&nbsp;</div>
 				
-				<div class="ui-grid-a ui-responsive">
-					<div class="ui-block-a"><div class="ui-body ui-body-d">Consumer Name <b style="float:right;">:</b></div></div>
-					<div class="ui-block-b"><div class="ui-body ui-body-d normalSize">ABDULREHMAN AMIN A R ALSHURFA</div></div>
-				</div><!-- /grid-a -->
+				<label for="basic">Department*</label>
+				<select>
+						<option>Select Department</option>
+					
+				</select>
 				
+				<div class="spacing">&nbsp;</div>
 				
-				
-				<div class="ui-grid-a ui-responsive">
-					<div class="ui-block-a"><div class="ui-body ui-body-d">Current Balance <b style="float:right;">:</b></div></div>
-					<div class="ui-block-b"><div class="ui-body ui-body-d normalSize">AED 575.95</div></div>
-				</div><!-- /grid-a -->
-				
-				
-				<div class="ui-grid-a ui-responsive">
-					<div class="ui-block-a"><div class="ui-body ui-body-d">Due Date <b style="float:right;">:</b></div></div>
-					<div class="ui-block-b"><div class="ui-body ui-body-d normalSize">31/08/2013</div></div>
-				</div><!-- /grid-a -->
+				<label for="basic">Complaint/Fault Details*</label>
+				<textarea></textarea>
 				
 				
-				<div class="ui-grid-a ui-responsive">
-					<div class="ui-block-a"><div class="ui-body ui-body-d">Recieved Amount (this  month) <b style="float:right;">:</b></div></div>
-					<div class="ui-block-b"><div class="ui-body ui-body-d normalSize">AED 0.00</div></div>
-				</div><!-- /grid-a -->
 				
-				<div class="ui-grid-a ui-responsive">
-					<div class="ui-block-a"><div class="ui-body ui-body-d">Last Reciept Date <b style="float:right;">:</b></div></div>
-					<div class="ui-block-b"><div class="ui-body ui-body-d normalSize">18/08/2013</div></div>
-				</div><!-- /grid-a -->
-				
-				
-				<div class="ui-grid-a ui-responsive noBdr">
+					<div class="ui-grid-a ui-responsive noBdr">
 					<a href="#" style="text-decoration:none;">
 					<div class="goBut bottomSubmit">
-								View Bill
+								SUBMIT
 					</div>
 					</a>
 					
 				</div><!-- /grid-a -->
 				
-				
-				
-				</div>	
-					
-					
-					
-				</fieldset>	
-				
-				
+			</div>
+			
+			
 				
 				
 				</div>

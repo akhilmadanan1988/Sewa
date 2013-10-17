@@ -35,7 +35,7 @@ body{
 .sewaHeader{
 	background:url('../images/headerBg.png') repeat !important;
 	 background-color:transparent !important; 
-	 height:60px; 	
+	 height:80px; 	
 	 position:relative;
 }
 .pageContainer .ui-bar-b{
@@ -70,8 +70,8 @@ body{
 }
 
 .logoHolder{
-	width: 215px;
-	margin-top: 2px;
+	/*width: 215px;*/
+	margin-top: 7px;
 }
 .leftNavigationColumn{
 	float:left;
@@ -84,7 +84,7 @@ body{
 .leftMenuHolder{
 	position:fixed;
 	left:0;
-	bottom:0;
+	top:17%;
 	width:100px;
 }
 .leftMenuHolder ul {
@@ -437,7 +437,7 @@ ol li{
 }
 .topMenu{
 	position: absolute;
-	top: 13px;
+	top: 22px;
 	right: 10px;
 	background:url(../images/menu_bg.png) repeat bottom !important;
 	padding:6px;
@@ -486,7 +486,7 @@ text-align: right;
 .profileArrow{
 	float: right;
 	width: 10px;
-	margin-top: 4px;
+	margin-top: 5px;
 }
 .profileSelection{
 	padding: 15px;
@@ -496,7 +496,15 @@ text-align: right;
 	float:left !important;
 }
 
-
+.reportForm{
+	font-family:'robotocondensed' !important;
+	font-size: 16px;
+	padding: 13px;
+background-color: #fff;
+border: 1px solid rgb(216, 208, 208);
+border-radius: 4px;
+	padding-top:25px; 
+}
 table.billHistory {
     color: black;
     background: #fff;
@@ -579,10 +587,44 @@ font-weight:normal !important;
 	font-weight: normal !important;
 }
 
+.leftMenuHolder ul li.lastChild {
+		border-radius: 0 0 26px 0;
+		} 
 
 
+.arabicVersion .leftMenuHolder ul li.lastChild,.arabicPageContainer .leftMenuHolder ul li.lastChild {
+		border-radius: 0 0 0 26px;
+		} 
 
+input.ui-input-text{
+	padding:6px 5px;
+	 font-family:'robotocondensed' !important;
+	font-size: 14px;
+	font-weight:normal !important; 
+	box-shadow:none !important;
+	border:1px solid rgb(228, 222, 222);
+}
 
+.spacing{
+	height:12px; 
+}
+.ui-select .ui-btn-icon-right .ui-btn-inner{
+	font-family:'robotocondensed' !important;
+	font-size: 15px;
+	font-weight:normal !important; 
+	text-shadow:none; 
+	text-align:left; 
+}
+textarea.ui-input-text {
+	border: 1px solid rgb(228, 222, 222);
+	box-shadow: none;
+	height:80px;
+}
+
+.arabicPageContainer label.ui-input-text{
+	text-align:right; 
+	
+}
 
 
 	

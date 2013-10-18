@@ -38,11 +38,14 @@
 	</Capabilities>
 	
 	<icon src="images/splash/5.png" gap:platform="ios" width="144" height="144" />
+	<icon src="images/splash/5.png" gap:platform="android" gap:density="xhdpi" />
 	
 	
 	  <!-- Splash screen ios-->
 	<gap:splash src="images/splash/3.png" gap:platform="ios" width="2048" height="1496" />
+	<gap:splash src="images/splash/3.png" gap:platform="android" gap:density="xhdpi" />
 	
+	<preference name="splash-screen-duration" value="10000"/>
 	
 	
 

@@ -37,6 +37,8 @@ body{
 	 background-color:transparent !important; 
 	 height:80px; 	
 	 position:relative;
+	 z-index:1000;
+	 top:0;
 }
 .pageContainer .ui-bar-b{
 	border: 1px solid #d62127;
@@ -86,6 +88,7 @@ body{
 	left:0;
 	top:17%;
 	width:100px;
+	z-index:1000;
 }
 .leftMenuHolder ul {
 	padding-left:0;
@@ -647,7 +650,8 @@ zoom:10;
  
 .ui-popup-container{
 	background-color:#fff; 
-	
+	z-index:10000 !important;
+	position:relative;
 }
 .popupSection .wrapper
 		{

@@ -20,6 +20,8 @@
 	<preference name="target-device" value="universal" />
 	<preference name="orientation" value="landscape" />
 	<preference name="phonegap-version" value="3.0.0" />
+	<preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
+	
 	 <!-- Internet connection -->
 	<feature name="NetworkStatus">
     <param name="android-package" value="org.apache.cordova.NetworkManager" />

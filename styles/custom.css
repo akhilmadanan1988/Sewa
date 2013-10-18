@@ -37,6 +37,8 @@ body{
 	 background-color:transparent !important; 
 	 height:80px; 	
 	 position:relative;
+	 top:0;
+	 z-index:1000;
 }
 .pageContainer .ui-bar-b{
 	border: 1px solid #d62127;
@@ -86,6 +88,7 @@ body{
 	left:0;
 	top:17%;
 	width:100px;
+	z-index:1000;
 }
 .leftMenuHolder ul {
 	padding-left:0;

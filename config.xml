@@ -19,8 +19,6 @@
 
 	<preference name="target-device" value="universal" />
 	<preference name="orientation" value="landscape" />
-	<preference name="phonegap-version" value="3.0.0" />
-	<preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
 	
 	 <!-- Internet connection -->
 	<feature name="NetworkStatus">
@@ -40,14 +38,11 @@
 	</Capabilities>
 	
 	<icon src="images/splash/5.png" gap:platform="ios" width="144" height="144" />
-	<icon src="images/splash/5.png" gap:platform="android" gap:density="xhdpi" />
 	
 	
 	  <!-- Splash screen ios-->
 	<gap:splash src="images/splash/3.png" gap:platform="ios" width="2048" height="1496" />
-	<gap:splash src="images/splash/3.png" gap:platform="android" gap:density="xhdpi" />
 	
-	<preference name="splash-screen-duration" value="10000"/>
 	
 	
 
